@@ -1,18 +1,27 @@
 package _03_remarkable;
-//    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
 import javax.swing.JOptionPane;
 
 public class Remarkable {
-public static void main(String[] args) {
+private static final String JOPationPainshowInputDialogn = null;
 
-		// 1. Save something remarkable about each person in a variable.
-
-		// 2. Ask the user to enter a name. Store their answer in a variable.
-
-		// 3. In a pop-up, tell the user what is remarkable about that person. 
-
+public static void main(String[] args) {	
+String matt ="taught scuba in hawaii";
+	String david="has two eyes"; 
+	String adora="has a awsome jacket";	
+	String michiyo="likes cookies"; 
+	String name=JOptionPane.showInputDialog(null,"whats your name");
+	
+	if(name.equals("adora")) {
+	JOptionPane.showMessageDialog(null,adora);
+	
 	}
+
+
 }
 
+
+
+
+}
