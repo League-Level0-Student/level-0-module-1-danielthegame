@@ -15,15 +15,24 @@ public class TheRiddler {
 		int score = 0;
 	
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
-JOptionPane.showInputDialog("The more you take, the more you leave behind.what am i");
+String ans= JOptionPane.showInputDialog("The more you take, the more you leave behind.what am i");
 		// 4. If they got the answer right, pop up "correct!" and increase the score by one
-
-		// 5. Otherwise, say "wrong" and tell them the answer
+if(ans.equals ("footsteps")){
+	score = score + 10;
+	JOptionPane.showMessageDialog(null,"hip hip horray");
+	JOptionPane.showMessageDialog(null,"your score "+ score);
+	
+}
+else{
+	score=score-10;
+	JOptionPane.showMessageDialog(null,"wrong,your score "+score);
+	// 5. Otherwise, say "wrong" and tell them the answer
+}
 
 		// 6. Add some more riddles
 
 		// 2. Make a pop up to show the score.
-		
+	
 	
 		
 	}
