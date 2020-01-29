@@ -7,6 +7,14 @@ image(face, 0, 0);
 
 }
 void draw() {
-ellipse(510, 250,150 ,200);
-ellipse(550,300,150,200); 
+  fill(mouseX,19,mouseY);
+ellipse(530, 260, 200 ,170);
+ellipse(643,275,150,150); 
+
+ellipse(643,275,50,50);
+ellipse(517,255,50,50);
+if(mousePressed){
+  println(mouseX+" "+mouseY);
+}
+
 }
